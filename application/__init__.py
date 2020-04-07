@@ -2,6 +2,7 @@ from application.config import TOKEN, SECRET_TOKEN, HEROKU_APP_NAME, DATABASE_UR
 from application.config import bot, app, db
 from application import commands
 from application import store
+from application import game
 
 
 @bot.message_handler(func=lambda message: True, content_types=['text'])
